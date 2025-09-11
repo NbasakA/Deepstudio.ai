@@ -104,12 +104,17 @@ nav{
     margin: 0;
 }
 
-.btn--start {
-    width: 316px;
+.btn--hero {
+    width:316px;
     height: 66px;
-    
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .btn--check {
-    
+    background:none;
+    border-color: var(--color--navy);
+    align-items: center;
+    border-radius: 10px;
+    color: var(--color--navy);
 }
