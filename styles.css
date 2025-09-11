@@ -7,7 +7,7 @@ body {
 }
 :root {
     --font--family:"Istok Web", sans-serif;
-    --color--text: #233C98;
+    --color--navy--text: #233C98;
 }
 
 nav{
@@ -27,7 +27,7 @@ nav{
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color:var(--color--text);
+    color:var(--color--navy--text);
 }
 
 .navbar--links {
@@ -39,10 +39,18 @@ nav{
     text-decoration: none;
     font-size: 25px;
     font-weight: regular;
-    color: var(--color--text);
+    color: var(--color--navy--text);
 }
 
 .navbar--btn{
     display: flex;
     gap: 20px;
+}
+
+.btn--src{
+    width:46px;
+    height: 46px;
+    border-radius: 46px;
+    background-color: ;
+
 }
