@@ -130,5 +130,8 @@ gap:27px;
 
 .data--numbers{
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bold;}
+
+.data--dfn{
+    font-size: 20px;
 }
