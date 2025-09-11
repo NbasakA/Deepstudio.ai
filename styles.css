@@ -61,6 +61,7 @@ nav{
     border-radius: 46px;
     background:none;
     border-color: var(--color--navy);
+    align-items: center;
 
 }
 
@@ -73,4 +74,5 @@ nav{
     border-color:var(--color--navy); /*check the bottom side of the borders, they are black? */
     border-radius: 10px;
     background:var(--color--navy);
-}
+    text-align: center;
+} 
