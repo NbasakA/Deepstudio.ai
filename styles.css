@@ -4,12 +4,14 @@
 
 body {
     margin: 0;
+    font-family: var(--font--family);
 }
 :root {
     --font--family:"Istok Web", sans-serif;
     --color--navy: #233C98;
     --color--white:#F5F5F5;
 }
+
 
 nav{
     display: flex;
@@ -24,7 +26,6 @@ nav{
 }
 
 .text--logo {
-    font-family: var(--font--family);
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
