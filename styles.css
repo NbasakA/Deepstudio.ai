@@ -79,7 +79,7 @@ nav{
 
 .hero-context{
     display: flex;
-    margin: auto 40px;
+    justify-content: center;
 
 
 }
