@@ -8,6 +8,7 @@ body {
 :root {
     --font--family:"Istok Web", sans-serif;
     --color--navy--text: #233C98;
+    --color--white:#F5F5F5;
 }
 
 nav{
@@ -51,6 +52,6 @@ nav{
     width:46px;
     height: 46px;
     border-radius: 46px;
-    background-color: ;
+    background-color:var(--color--white) ;
 
 }
