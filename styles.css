@@ -30,9 +30,19 @@ nav{
     color:var(--color--text);
 }
 
+.navbar--links {
+    display: flex;
+    gap: 40px;
+}
+
 .navbar--link {
     text-decoration: none;
     font-size: 25px;
     font-weight: regular;
     color: var(--color--text);
+}
+
+.navbar--btn{
+    display: flex;
+    gap: 20px;
 }
