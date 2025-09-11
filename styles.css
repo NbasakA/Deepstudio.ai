@@ -88,3 +88,8 @@ nav{
     max-width:704px;
 }
 
+.hero--headline{
+    font-size:80px;
+    font-weight: regular;
+}
+
