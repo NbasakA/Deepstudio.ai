@@ -59,7 +59,18 @@ nav{
     width:46px;
     height: 46px;
     border-radius: 46px;
-    background-color:var(--color--white) ;
+    background:none;
     border-color: var(--color--navy);
 
+}
+
+.btn--primary{
+    width:166px;
+    height:46px;
+    font-size: 20px ;
+    color: var(--color--white);
+    font-weight: bold;
+    border-color:var(--color--navy); /*check the bottom side of the borders, they are black? */
+    border-radius: 10px;
+    background:var(--color--navy);
 }
