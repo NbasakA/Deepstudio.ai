@@ -139,3 +139,8 @@ gap:27px;
 .hero--photo {
     height: 570px;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
