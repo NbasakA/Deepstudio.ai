@@ -14,5 +14,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
 
+.img--logo {
+    width: 42px;
+    height: 42px;
 }
