@@ -76,3 +76,8 @@ nav{
     background:var(--color--navy);
     text-align: center;
 } 
+
+.hero-context{
+    display: flex;
+
+}
