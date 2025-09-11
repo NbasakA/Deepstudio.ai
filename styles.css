@@ -79,5 +79,12 @@ nav{
 
 .hero-context{
     display: flex;
+    margin: auto 40px;
+
 
 }
+
+.hero--left {
+    max-width:704px;
+}
+
