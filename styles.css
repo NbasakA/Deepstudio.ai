@@ -127,3 +127,8 @@ gap:27px;
     display: flex;
     gap:67px;
 }
+
+.data--numbers{
+    font-size: 50px;
+    font-weight: bold;
+}
