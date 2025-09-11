@@ -143,4 +143,17 @@ gap:27px;
 footer {
     display: flex;
     flex-direction: column;
+    color: var(--color--white);
+    background-color: var(--color--navy);
+}
+
+.footer--top {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
 }
