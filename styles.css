@@ -80,12 +80,15 @@ nav{
 .hero-context{
     display: flex;
     justify-content: center;
-
-
+    margin-top: 93px;
+    gap: 117px;
 }
 
 .hero--left {
     max-width:704px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .hero--headline{
@@ -93,5 +96,10 @@ nav{
     font-weight:normal;
     line-height: 90px;
     letter-spacing: -5px;
+    margin: 0;
 }
 
+.hero--text{
+    font-size: 25px;
+    margin: 0;
+}
