@@ -23,6 +23,7 @@ nav{
 .navbar--logo{
     display: flex;
     align-items: center;
+    gap:5px;
 }
 .img--logo {
     width: 42px;
