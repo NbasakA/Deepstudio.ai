@@ -104,6 +104,10 @@ nav{
     margin: 0;
 }
 
+.hero--btn {
+display: flex;
+gap:27px;
+}
 .btn--hero {
     width:316px;
     height: 66px;
