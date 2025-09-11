@@ -6,25 +6,27 @@ body {
     margin: 0;
     font-family: var(--font--family);
 }
+
 :root {
-    --font--family:"Istok Web", sans-serif;
+    --font--family: "Istok Web", sans-serif;
     --color--navy: #233C98;
-    --color--white:#F5F5F5;
+    --color--white: #F5F5F5;
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
 }
 
-.navbar--logo{
+.navbar--logo {
     display: flex;
     align-items: center;
-    gap:5px;
+    gap: 5px;
 }
+
 .img--logo {
     width: 42px;
     height: 42px;
@@ -35,7 +37,7 @@ nav{
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color:var(--color--navy);
+    color: var(--color--navy);
 }
 
 .navbar--links {
@@ -50,34 +52,35 @@ nav{
     color: var(--color--navy);
 }
 
-.navbar--btn{
+.navbar--btn {
     display: flex;
     gap: 20px;
 }
 
-.btn--src{
-    width:46px;
+.btn--src {
+    width: 46px;
     height: 46px;
     border-radius: 46px;
-    background:none;
+    background: none;
     border-color: var(--color--navy);
     align-items: center;
 
 }
 
-.btn--primary{
-    width:166px;
-    height:46px;
-    font-size: 20px ;
+.btn--primary {
+    width: 166px;
+    height: 46px;
+    font-size: 20px;
     color: var(--color--white);
     font-weight: bold;
-    border-color:var(--color--navy); /*check the bottom side of the borders, they are black? */
+    border-color: var(--color--navy);
+    /*check the bottom side of the borders, they are black? */
     border-radius: 10px;
-    background:var(--color--navy);
+    background: var(--color--navy);
     text-align: center;
-} 
+}
 
-.hero-context{
+.hero-context {
     display: flex;
     justify-content: center;
     margin-top: 93px;
@@ -85,38 +88,39 @@ nav{
 }
 
 .hero--left {
-    max-width:704px;
+    max-width: 704px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.hero--headline{
-    font-size:80px;
-    font-weight:normal;
+.hero--headline {
+    font-size: 80px;
+    font-weight: normal;
     line-height: 90px;
     letter-spacing: -5px;
     margin: 0;
 }
 
-.hero--text{
+.hero--text {
     font-size: 25px;
     margin: 0;
 }
 
 .hero--btn {
-display: flex;
-gap:27px;
+    display: flex;
+    gap: 27px;
 }
+
 .btn--hero {
-    width:316px;
+    width: 316px;
     height: 66px;
     font-size: 25px;
     font-weight: bold;
 }
 
 .btn--check {
-    background:none;
+    background: none;
     border-color: var(--color--navy);
     align-items: center;
     border-radius: 10px;
@@ -125,14 +129,15 @@ gap:27px;
 
 .hero--data {
     display: flex;
-    gap:67px;
+    gap: 67px;
 }
 
-.data--numbers{
+.data--numbers {
     font-size: 50px;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
-.data--dfn{
+.data--dfn {
     font-size: 20px;
 }
 
@@ -143,6 +148,7 @@ gap:27px;
 footer {
     display: flex;
     flex-direction: column;
+    padding: 40px;
     color: var(--color--white);
     background-color: var(--color--navy);
 }
@@ -150,10 +156,30 @@ footer {
 .footer--top {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
 }
 
-.column{
+.footer--logo>p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer--logo>a {
+    width: 24px;
+    height: 24px;
+}
+
+.column {
     display: flex;
     flex-direction: column;
+}
+
+.column>p {
+    font-size: 20px;
+}
+
+.column>a {
+    text-decoration: none;
+    color: var(--color--white);
 }
