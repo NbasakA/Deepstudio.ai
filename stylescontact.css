@@ -88,13 +88,11 @@ form {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap:15px;
-    margin: 40px auto;
+    gap: 15px;
 }
 .form--firstrow, .form--secondrow {
     display: flex;
     flex-direction: row;
-    gap: 35px;
     width: 50%;
 }
 .form--group {
@@ -114,8 +112,8 @@ form {
 .form--group textarea {
     padding: 10px;
     border: 1px solid var(--color--navy);
-    border-radius: 5px;
-    width: 100%;
+    border-radius: 10px;
+    width: 80%;
 }
 
 
