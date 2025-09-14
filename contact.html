@@ -27,12 +27,16 @@
             </div>
             <div class="navbar--btn">
                 <button class="btn--src"><img src="./Assets/src.svg" alt="search icon"></button>
-                <a href="contact.html" target="_parent" btn--primary">Contact</a>
+                <a href="contact.html" target="_parent" class="btn--primary">Contact</a>
             </div>
         </nav>
     </header>
-    <form class="form--contact">
+    <form class="form--contact" method="post" action="#">
+        <fieldset>
         <legend>Get In Touch</legend>
+        <p>Get in touch with us to amplify your brand's social media impact!</p>
+
+        
         <label for="name">Full Name*</label>
         <input type="text" id="name" name="name"  placeholder="Your first and last name" required>
 
@@ -60,6 +64,7 @@
         <textarea for="message" rows="6" cols="50"></textarea>
         
         <button type="submit">Send Message</button>
+        </fieldset>
     </form>
 <footer>
             <div class="footer--top">
