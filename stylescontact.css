@@ -91,12 +91,16 @@ form {
     gap:15px;
     margin: 40px auto;
 }
-
+.form--firstrow, .form--secondrow {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    width: 50%;
+}
 .form--group {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 40%;
 }
 
