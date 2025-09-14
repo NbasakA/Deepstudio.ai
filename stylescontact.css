@@ -89,6 +89,7 @@ form {
     align-items: center;
     width: 100%;
     gap: 15px;
+    margin-bottom: 70px;
 }
 .form--firstrow, .form--secondrow {
     display: flex;
@@ -114,6 +115,16 @@ form {
     border: 1px solid var(--color--navy);
     border-radius: 10px;
     width: 80%;
+}
+
+.btn--submit {
+    width: 253px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: var(--color--navy);
+    color: var(--color--white);
+    border: none;
+
 }
 
 
