@@ -200,7 +200,11 @@ footer {
     
 }
 
+hr{
+    width: 1384px;
+}
 .footer--bottom>div{
     display: flex;
     gap:12px;
 }
+
