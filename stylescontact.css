@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font--family);
+}
+
+:root {
+    --font--family: "Istok Web", sans-serif;
+    --color--navy: #233C98;
+    --color--white: #F5F5F5;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.navbar--logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.img--logo {
+    width: 42px;
+    height: 42px;
+
+}
+
+.text--logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color--navy);
+}
+
+.navbar--links {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar--link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: regular;
+    color: var(--color--navy);
+}
+
+.navbar--btn {
+    display: flex;
+    gap: 20px;
+}
+
+.btn--src {
+    width: 46px;
+    height: 46px;
+    border-radius: 46px;
+    background: none;
+    border-color: var(--color--navy);
+    align-items: center;
+
+}
+
+/* check buttons css*/
+
+.btn--primary {
+    width: 166px;
+    height: 46px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--color--white);
+    font-weight: bold;
+    border-color: var(--color--navy);
+    /*check the bottom side of the borders, they are black? */
+    border-radius: 10px;
+    background: var(--color--navy);
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    color: var(--color--white);
+    background-color: var(--color--navy);
+}
+
+.footer--top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.footer--logo>p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer--logo>a {
+    width: 24px;
+    height: 24px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column>p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.column>a {
+    text-decoration: none;
+    color: var(--color--white);
+}
+
+.footer--bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.footer--bottom>div>a{
+    text-decoration: none;
+    color: var(--color--white);
+    
+}
+
+hr{
+    width: 1384px;
+}
+.footer--bottom>div{
+    display: flex;
+    gap:12px;
+}
