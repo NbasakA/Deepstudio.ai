@@ -203,6 +203,23 @@ nav {
     width: 80%;
     margin-bottom: 75px;
 }
+
+
+.section--whatwedo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 55px auto 75px;
+}
+
+
+
+
+
+
+
+
+
 footer {
     display: flex;
     flex-direction: column;
