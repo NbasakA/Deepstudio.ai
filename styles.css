@@ -213,7 +213,7 @@ nav {
     flex-direction: column;
     align-items: center;
     margin: 55px auto 75px;
-    gap: 50px;
+    gap: 100px;
 }
 
 .section--whatwedo>h2 {
