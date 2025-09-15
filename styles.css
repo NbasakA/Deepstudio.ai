@@ -230,10 +230,16 @@ nav {
     border-color: var(--color--navy);
 }
 
-.section--contents {
+.section--whatwedo--contents {
     display: flex;
     flex-direction: row;
+    max-width: 1224px;
+    gap: 117px;
+    margin-top: 55px;
+    margin-bottom: 75px;
 }
+
+
 
 
 
