@@ -158,6 +158,7 @@ nav {
 .section--md--content {
     display: flex;
     flex-direction: row;
+    
 }
 footer {
     display: flex;
