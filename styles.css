@@ -57,15 +57,6 @@ nav {
     gap: 20px;
 }
 
-.btn--src {
-    width: 46px;
-    height: 46px;
-    border-radius: 46px;
-    background: none;
-    border-color: var(--color--navy);
-    align-items: center;
-
-}
 
 /* check buttons css*/
 
@@ -267,12 +258,12 @@ form {
     align-items: center;
     gap: 20px;
     width: 100%;
-    margin: 0;
+    margin: 55px auto 75px;
 }
 
-.form--row{
+.form--row {
     display: flex;
-    flex-direction:row
+    flex-direction:row;
     gap: 20px;
     
 }
@@ -280,8 +271,6 @@ form {
 .form--group {
     flex:1;
     display: flex;
-
-    
 }
 
 footer {
