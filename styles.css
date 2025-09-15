@@ -198,15 +198,6 @@ nav {
     max-width: 504px;
 }
 
-/*check this*/
-
-.section--projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 80%;
-    margin-bottom: 75px;
-}
-
 
 .section--whatwedo {
     display: flex;
@@ -255,6 +246,18 @@ nav {
 .section--whatwedo--text>ul{
     list-style: none;
     line-height: 30px;
+}
+
+/*check this*/
+
+.section--projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+    width: 50%;
+    margin:55px 0 75px;
 }
 
 footer {
