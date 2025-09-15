@@ -296,7 +296,11 @@ form {
     flex-direction: column;
 }
 
-
+.form--group>label {
+    font-size: 16px;
+    color: var(--color--navy);
+    font-weight: 500;
+}
 
 .form--group>input,
 .form--group>textarea,
@@ -332,7 +336,7 @@ footer {
 }
 
 .footer--logo>a {
-    width: 24px;
+    width: 2px;
     height: 24px;
 }
 
@@ -342,22 +346,18 @@ footer {
 }
 
 .column>p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .column>a {
+    font-size: 10px;
     text-decoration: none;
     color: var(--color--white);
-/* Removed duplicate .form--group definition */
     flex-direction: column;
 }
 
-.form--group>label {
-    font-size: 16px;
-    color: var(--color--navy);
-    font-weight: 500;
-}
+
 .footer--bottom {
     display: flex;
     flex-direction: row;
@@ -382,7 +382,13 @@ hr {
 
 
 @media all and (min-width:768px) and (max-width:1024px){
-    
+    .hidden--md {
+        display: none;
+    }
+
+
+
+
 }
 
 @media all and (min-width:1024.98px) {
