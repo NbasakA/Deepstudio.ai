@@ -68,7 +68,11 @@ nav {
     color: var(--color--white);
     border-radius: 10px;
     background: var(--color--navy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    cursor: pointer;
 }
 
 .hero-context {
@@ -101,7 +105,7 @@ nav {
 
 .hero--cta {
     display: flex;
-    gap: 27px;
+    gap: 30px;
 }
 
 .btn--hero {
@@ -109,7 +113,6 @@ nav {
     height: 66px;
     font-size: 25px;
     font-weight: bold;
-    border: none;
 }
 
 .btn--check {
@@ -118,6 +121,7 @@ nav {
     align-items: center;
     border-radius: 10px;
     color: var(--color--navy);
+    cursor: pointer;
 }
 
 .hero--data {
@@ -377,10 +381,10 @@ hr {
 }
 
 
-@media all and (min-width:768.98px) and (max-width:1024px){
+@media all and (min-width:768px) and (max-width:1024px){
     
 }
 
 @media all and (min-width:1024.98px) {
-
+    
 }
