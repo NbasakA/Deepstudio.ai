@@ -260,6 +260,21 @@ nav {
     margin:55px 0 75px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form--firstrow,.form--secondrow {
+    display: flex;
+    gap: 20px;
+    
+}
+
 footer {
     display: flex;
     flex-direction: column;
