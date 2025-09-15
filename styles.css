@@ -149,6 +149,16 @@ nav {
     height: 570px;
 }
 
+.section--md {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section--md--content {
+    display: flex;
+    flex-direction: row;
+}
 footer {
     display: flex;
     flex-direction: column;
