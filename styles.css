@@ -99,7 +99,7 @@ nav {
     margin: 0;
 }
 
-.hero--btn {
+.hero--cta {
     display: flex;
     gap: 27px;
 }
@@ -109,6 +109,7 @@ nav {
     height: 66px;
     font-size: 25px;
     font-weight: bold;
+    border: none;
 }
 
 .btn--check {
