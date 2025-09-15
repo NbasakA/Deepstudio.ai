@@ -66,8 +66,6 @@ nav {
     font-size: 20px;
     text-decoration: none;
     color: var(--color--white);
-    border-color: var(--color--navy);
-    /*check the bottom side of the borders, they are black? */
     border-radius: 10px;
     background: var(--color--navy);
     text-align: center;
