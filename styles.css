@@ -154,6 +154,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -177,6 +178,8 @@ nav {
 .section--about--content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     max-width: 1224px;
     gap: 117px;
     margin-top: 55px;
@@ -210,6 +213,7 @@ nav {
     flex-direction: column;
     align-items: center;
     margin: 55px auto 75px;
+    gap:50px;
 }
 
 .section--whatwedo>h2 {
@@ -221,7 +225,7 @@ nav {
 .section--whatwedo>p{
     font-size: 20px;
     text-align: center;
-    margin-bottom: 55px;
+    margin-bottom: 55px
 }
 
 .section--whatwedo>hr {
@@ -233,13 +237,11 @@ nav {
 .section--whatwedo--contents {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     max-width: 1224px;
     gap: 117px;
-    margin-top: 55px;
-    margin-bottom: 75px;
 }
-
-
 
 
 
