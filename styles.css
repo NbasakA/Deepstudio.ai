@@ -267,12 +267,12 @@ form {
     align-items: center;
     gap: 20px;
     width: 100%;
-    margin: 55px auto 75px;
+    margin: 0;
 }
 
 .form--row{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction:row
     gap: 20px;
     
 }
