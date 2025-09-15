@@ -204,6 +204,15 @@ nav {
     max-width: 504px;
 }
 
+.section--projects {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
 
 footer {
     display: flex;
