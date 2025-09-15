@@ -269,7 +269,7 @@ form {
     align-items: center;
 }
 
-.form--firstrow,.form--secondrow {
+.form--row{
     display: flex;
     gap: 20px;
     
