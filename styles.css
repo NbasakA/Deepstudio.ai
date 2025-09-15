@@ -263,15 +263,24 @@ nav {
 form {
     display: flex;
     flex-direction: column;
-    gap:20px;
-    width: 100%;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 55px auto 75px;
 }
 
 .form--row{
     display: flex;
+    flex-direction: row-reverse;
     gap: 20px;
+    
+}
+
+.form--group {
+    flex:1;
+    display: flex;
+
     
 }
 
