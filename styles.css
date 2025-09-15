@@ -150,31 +150,31 @@ nav {
 }
 
 
-.section--md {
+.section--about {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-.section--md--title {
+.section--about--title {
     font-size: 40px;
     color: var(--color--navy);
 }
 
-.section--md--text {
+.section--about--text {
     font-size: 20px;
     text-align: center;
     margin-bottom: 55px;
 }
 
-.section--md>hr {
+.section--about>hr {
     width: 100px;
     color: var(--color--navy);
     border-color: var(--color--navy);
 }
 
-.section--md--content {
+.section--about--content {
     display: flex;
     flex-direction: row;
     max-width: 1224px;
@@ -184,13 +184,13 @@ nav {
 }
 
 
-.section--md--right--title {
+.section--about--right--title {
     font-size: 30px;
     font-weight: lighter;
     text-align: left;
 }
 
-.section--md--right--text {
+.section--about--right--text {
     font-size: 20px;
     max-width: 504px;
 }
@@ -212,11 +212,28 @@ nav {
     margin: 55px auto 75px;
 }
 
+.section--whatwedo>h2 {
+    font-size: 40px;
+    color: var(--color--navy);
 
+}
 
+.section--whatwedo>p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 55px;
+}
 
+.section--whatwedo>hr {
+    width: 100px;
+    color: var(--color--navy);
+    border-color: var(--color--navy);
+}
 
-
+.section--contents {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
