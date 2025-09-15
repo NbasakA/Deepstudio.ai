@@ -155,10 +155,34 @@ nav {
     align-items: center;
 }
 
+
+.section--md--title {
+    font-size: 40px;
+    color: var(--color--navy);
+}
+
+.section--md--text {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.section--md>hr {
+    width: 100px;
+    color: var(--color--navy);
+    border-color: var(--color--navy);
+}
+
 .section--md--content {
     display: flex;
     flex-direction: row;
-    
+    max-width: 1224px;
+    gap: 117px;
+}
+
+
+.section--md--right--title {
+    font-size: 40
 }
 footer {
     display: flex;
