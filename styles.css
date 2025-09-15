@@ -270,7 +270,17 @@ form {
 
 .form--group {
     flex:1;
-    display: flex;
+    display: flex;}
+
+
+
+.form--group>input,
+.form--group>textarea,
+.form--group>select{
+    border-radius: 10px;
+    border: 1px solid var(--color--navy);
+    padding: 12px 15px;
+    width: 100%;
 }
 
 footer {
