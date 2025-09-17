@@ -381,7 +381,20 @@ footer>hr {
 
     body {
         margin: 50px 60px;
-    };
+    }
+
+    .img--logo {
+    width: 42px;
+    height: 42px;
+
+}
+
+.text--logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color--navy);
+}
 
 
 
