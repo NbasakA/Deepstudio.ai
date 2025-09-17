@@ -33,7 +33,8 @@
             </div>
 
         <div>
-            <a href="#" class="hidden--lg nav--menu"><img src="./Assets/menu-icon.svg" alt="menu icon"></a>
+            <a href="#" class="hidden--lg nav--menu">
+                <img src="./Assets/menu-icon.svg" alt="menu icon"></a>
         </div>
         </nav>
     </header>
@@ -42,6 +43,14 @@
             <div class="hero-context">
                 <div class="hero--right">
                     <img class="hero--photo" src="./Assets/hero-photo.svg" alt="a photo of one of the team members">
+
+                    <picture>
+                        <source media="(width < 800px)" srcset="elva-480w-close-portrait.jpg" />
+                        <source media="(width >= 800px)" srcset="elva-800w.jpg" />
+                        <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+                    </picture>
+               
+               
                 </div>
                 <div class="hero--left">
                     <h1 class="hero--headline">Amplify Your Brand’s Social Impact</h1>
@@ -161,8 +170,8 @@ Our approach combines data-driven strategies with creative storytelling, ensurin
                 
             </div>
             <div class="section--whatwedo--contents">
-                    <div class="section--whatwedo--photo">
-                        <img src="./Assets/whatwedoimg4.svg" alt="Photo about analitics ">
+                    <div >
+                        <img class="section--whatwedo--photo" src="./Assets/whatwedoimg4.svg" alt="Photo about analitics ">
                     </div>
                     <div class="section--whatwedo--text">
                         <h2>Analytics & Reporting</h2>
