@@ -19,6 +19,7 @@ body {
 
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
@@ -69,6 +70,8 @@ nav {
     text-align: center;
     cursor: pointer;
 }
+
+/*HERO SECTION*/
 
 .hero-context {
     display: flex;
@@ -338,7 +341,53 @@ form {
     width: 100%;
 }
 
+.hidden--sm {
+    display: none;
+}
 
+
+
+@media all and (min-width:768.98px) and (max-width:1024px){
+    .hidden--md {
+        display: none;
+    }
+
+
+
+
+}
+
+@media all and (min-width:1024.98px) {
+    .hidden--lg {
+        display: none;
+    }
+
+    .navbar--links {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar--link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--color--navy);
+}
+
+.navbar--btn {
+    display: flex;
+    gap: 20px;
+}
+
+
+.hero-context {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 93px;
+    gap: 117px;
+    margin-bottom: 55px;
+}
 
 footer {
     display: flex;
@@ -416,45 +465,4 @@ hr {
 }
 
 
-@media all and (min-width:768.98px) and (max-width:1024px){
-    .hidden--md {
-        display: none;
-    }
-
-
-
-
-}
-
-@media all and (min-width:1024.98px) {
-    .hidden--lg {
-        display: none;
-    }
-
-    .navbar--links {
-    display: flex;
-    gap: 40px;
-}
-
-.navbar--link {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: normal;
-    color: var(--color--navy);
-}
-
-.navbar--btn {
-    display: flex;
-    gap: 20px;
-}
-
-
-.hero-context {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 93px;
-    gap: 117px;
-    margin-bottom: 55px;
-}
 }
