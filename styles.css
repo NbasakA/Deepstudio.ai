@@ -50,12 +50,6 @@ nav {
 
 }
 
-/*check the menu*/
-
-
-
-/* check buttons css*/
-
 .btn--primary {
     width: 166px;
     height: 46px;
@@ -70,6 +64,7 @@ nav {
     text-align: center;
     cursor: pointer;
 }
+
 
 /*HERO SECTION*/
 
@@ -210,7 +205,7 @@ nav {
     font-size: 20px;
     max-width: var(--site--max-width-sm);
     text-align: center;
-    margin:auto 40px; /* why body's margin is not working? */
+
 }
 
 /* WHATWEDO SECTION*/
@@ -267,9 +262,7 @@ nav {
     margin-left: 20px;
 }
 
-.section--whatwedo--photo {
-    width: var(--site--max-width-sm);
-}
+
 /*check this*/
 
 /*PROJECTS SECTION*/
@@ -381,6 +374,7 @@ form {
     display: flex;
     gap: 20px;
 }
+
 
 
 .hero-context {
