@@ -33,8 +33,10 @@
             </div>
 
         <div>
-            <a href="#" class="hidden--lg nav--menu"><img src="./Assets/menu-icon.svg" alt="menu icon"></a>
+            <a href="#" class="hidden--lg nav--menu">
+                <img src="./Assets/menu-icon.svg" alt="menu icon"></a>
         </div>
+        
         </nav>
     </header>
     <main>
@@ -46,9 +48,14 @@
             <hr>
 
             <div class="section--about--content">
-
+                
                 <div>
-                <img class="section--about--left" src="./Assets/about.svg" alt="A photo of team work">
+            
+                <picture>
+                        <source media="(width < 728px)" srcset="./Assets/about-photo-sm.png" />
+                        <source media="(width > 728.98px)" srcset="./Assets/about-photo-md-lg.png" />
+                        <img src="./Assets/about-photo-md-lg.png" alt="A photo of the team & the work" />
+                    </picture>
             </div>
             <div class="section--about--right">
                     <h2 class="section--about--right--title">
@@ -62,58 +69,59 @@ Our approach combines data-driven strategies with creative storytelling, ensurin
 
                 </div>
             </div>
+            <hr>
             
         </section>
 
         
     </main>
     <footer>
-            <div class="footer--top">
-                <div class="footer--logo">
-                    <p>deepstudio</p>
-                    <div>
-                        <a href="https://www.instagram.com/deepstudio.ai/" target="_blank"><img
-                                src="./Assets/instagram-icon.svg" alt="instagram icon"></a>
-                        <a href="https://wwww.facebook.com" target="_blank"><img src="./Assets/fb-icon.svg"
-                                alt="facebook icon"></a>
-                        <a href="https://wwww.x.com" target="_blank"><img src="./Assets/x-icon.svg" alt="x icon"></a>
-                        <a href="https://www.linkedin.com" target="_blank"><img src="./Assets/in-icon.svg"
-                                alt="linkedin icon"></a>
-                        <a href="https://www.youtube.com" target="_blank"><img src="./Assets/yt-icon.svg"
-                                alt="youtube icon"></a>
-                    </div>
-                    </div>
-
-                <div class="column">
-                    <p>What we do</p>
-                    <a href="#">Social Media Management</a>
-                    <a href="#">Brand Design</a>
-                    <a href="#">Influencer Marketing</a>
-                </div>
-                <div class="column">
-                    <p>Company</p>
-                    <a href="#">About us</a>
-                    <a href="#">Our Team</a>
-                    <a href="#">Blog</a>
-                </div>
-                <div class="column">
-                    <p>Contact</p>
-                    <a href="#"><img src="./Assets/email-icon.svg" alt="email icon">hello@deepstudio.com</a>
-                    <a href="#"><img src="./Assets/phone-icon.svg" alt="phone icon">+90 (000) 000-0000</a>
-                    <a href="#"><img src="./Assets/location-icon.svg" alt="location icon">Based in World</a>
-                </div>
-            </div>
-            <hr>
-            <div class="footer--bottom">
-                <span>© 2025 deepstudio. All rights reserved.</span>
+        <div class="footer--top">
+            <div class="footer--logo">
+                <p>deepstudio</p>
                 <div>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Cookie Policy</a>
+                    <a href="https://www.instagram.com/deepstudio.ai/" target="_blank"><img
+                            src="./Assets/instagram-icon.svg" alt="instagram icon"></a>
+                    <a href="https://wwww.facebook.com" target="_blank"><img src="./Assets/fb-icon.svg"
+                            alt="facebook icon"></a>
+                    <a href="https://wwww.x.com" target="_blank"><img src="./Assets/x-icon.svg" alt="x icon"></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img src="./Assets/in-icon.svg"
+                            alt="linkedin icon"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="./Assets/yt-icon.svg"
+                            alt="youtube icon"></a>
                 </div>
             </div>
-        </footer>
+    
+            <div class="column hidden--sm hidden--md">
+                <p>What we do</p>
+                <a href="#">Social Media Management</a>
+                <a href="#">Brand Design</a>
+                <a href="#">Influencer Marketing</a>
+            </div>
+            <div class="column hidden--sm hidden--md">
+                <p>Company</p>
+                <a href="#">About us</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="column hidden--sm hidden--md">
+                <p>Contact</p>
+                <a href="#"><img src="./Assets/email-icon.svg" alt="email icon">hello@deepstudio.com</a>
+                <a href="#"><img src="./Assets/phone-icon.svg" alt="phone icon">+90 (000) 000-0000</a>
+                <a href="#"><img src="./Assets/location-icon.svg" alt="location icon">Based in World</a>
+            </div>
+        </div>
+        <hr>
 
+        <div class="footer--bottom ">
+            <span>© 2025 deepstudio. All rights reserved.</span>
+            <div class="hidden--sm hidden--md">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 
