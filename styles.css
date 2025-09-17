@@ -192,7 +192,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: var(--site--max-width-sm);
 }
 
 .section--about--right--title {
@@ -203,9 +202,9 @@ nav {
 
 .section--about--right--text {
     font-size: 20px;
-    max-width: var(--site--max-width-sm);
     text-align: center;
-
+    max-width: var(--site--max-width-sm);
+    margin: auto 40px; /* why body's margin is not working? */;
 }
 
 /* WHATWEDO SECTION*/
@@ -214,6 +213,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .section--whatwedo>h2 {
@@ -239,7 +239,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: var(--site--max-width-sm);
     gap: 50px;
 }
 
@@ -251,7 +250,6 @@ nav {
 
 .section--whatwedo--text>p{
     font-size: 20px;
-    max-width: var(--site--max-width-sm);
     text-align: center;
     margin: auto 40px;
 }
@@ -341,7 +339,35 @@ form {
     display: none;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    color: var(--color--white);
+    background-color: var(--color--navy);
+    margin: 0 -20px -30px -20px;
+}
 
+.footer--logo {
+    margin: auto 40px;
+}
+.footer--logo>p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer--logo>a {
+    width: 24px;
+    height: 24px;
+}
+
+footer>hr {
+    width: 320px;
+}
+
+.footer--bottom>span{
+    font-size: 10px;
+    margin: auto 40px;
+}
 
 @media all and (min-width:768.98px) and (max-width:1024px){
     .hidden--md {
