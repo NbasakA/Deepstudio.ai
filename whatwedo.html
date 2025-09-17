@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
         rel="stylesheet">
 
 </head>
+
 <body>
     <header>
         <nav>
@@ -31,8 +33,10 @@
             </div>
 
         <div>
-            <a href="#" class="hidden--lg nav--menu"><img src="./Assets/menu-icon.svg" alt="menu icon"></a>
+            <a href="#" class="hidden--lg nav--menu">
+                <img src="./Assets/menu-icon.svg" alt="menu icon"></a>
         </div>
+        
         </nav>
     </header>
     <main>
@@ -56,15 +60,17 @@
                     </ul>
                 </div>
                 <div class="section--whatwedo--photo">
-                    <img src="./Assets/whatwedofb.svg" alt="Facebook symbol on mobile ">
+                    <picture>
+                        <source media="(width < 728px)" srcset="./Assets/wwd-photo-1-sm.png" />
+                        <source media="(width > 728.98px)" srcset="./Assets/wwd-photo-1-md-lg.png" />
+                        <img src="./Assets/wwd-photo-1-md-lg.png" alt="Facebook page on mobile" />
+                    </picture>
                 </div>
                 
             </div>
 
             <div class="section--whatwedo--contents">
-                <div class="section--whatwedo--photo">
-                    <img src="./Assets/whatwedoimg2.svg" alt="Photo about branding strategies ">
-                </div>
+                
                 <div class="section--whatwedo--text">
                     <h2>Brand Strategy<br> & Design</h2>
                     <p>Comprehensive brand development from visual identity to messaging strategy that resonates with your target audience.</p>
@@ -75,6 +81,13 @@
                         <li><img src="./Assets/list-icon.svg" alt="list icon"> Messaging & tone of voice</li>
                         <li><img src="./Assets/list-icon.svg" alt="list icon"> Brand positioning strategy</li>
                     </ul>
+                </div>
+                <div class="section--whatwedo--photo">
+                    <picture>
+                        <source media="(width < 728px)" srcset="./Assets/wwd-photo-2-sm.png" />
+                        <source media="(width > 728.98px)" srcset="./Assets/wwd-photo-2-md-lg.png" />
+                        <img src="./Assets/wwd-photo-2-md-lg.png" alt="A photo about branding strategies" />
+                    </picture>
                 </div>
                 
                 
@@ -93,15 +106,17 @@
                     </ul>
                 </div>
                 <div class="section--whatwedo--photo">
-                    <img src="./Assets/whatwedoimg3.svg" alt="Photo about content creating ">
+                    <picture>
+                        <source media="(width < 728px)" srcset="./Assets/wwd-photo-3-sm.png" />
+                        <source media="(width > 728.98px)" srcset="./Assets/wwd-photo-3-md-lg.png" />
+                        <img src="./Assets/wwd-photo-3-md-lg.png" alt="A photo about content creation" />
+                    </picture>
                 </div>
                 
                 
             </div>
             <div class="section--whatwedo--contents">
-                    <div class="section--whatwedo--photo">
-                        <img src="./Assets/whatwedoimg4.svg" alt="Photo about analitics ">
-                    </div>
+                    
                     <div class="section--whatwedo--text">
                         <h2>Analytics & Reporting</h2>
                         <p>Data-driven insights and comprehensive reporting to track performance, ROI, and optimize your social media
@@ -114,56 +129,64 @@
                         <li><img src="./Assets/list-icon.svg" alt="list icon"> Strategy optimization recommendations</li>
                     </ul>
                 </div>
+                <div >
+                        <picture>
+                        <source media="(width < 728px)" srcset="./Assets/wwd-photo-4-sm.png" />
+                        <source media="(width > 728.98px)" srcset="./Assets/wwd-photo-4-md-lg.png" />
+                        <img src="./Assets/wwd-photo-4-md-lg.png" alt="A photo about analytics" />
+                    </picture>
+                    </div>
             </div>
     </section>
   
       </main>
 <footer>
-            <div class="footer--top">
-                <div class="footer--logo">
-                    <p>deepstudio</p>
-                    <div>
-                        <a href="https://www.instagram.com/deepstudio.ai/" target="_blank"><img
-                                src="./Assets/instagram-icon.svg" alt="instagram icon"></a>
-                        <a href="https://wwww.facebook.com" target="_blank"><img src="./Assets/fb-icon.svg"
-                                alt="facebook icon"></a>
-                        <a href="https://wwww.x.com" target="_blank"><img src="./Assets/x-icon.svg" alt="x icon"></a>
-                        <a href="https://www.linkedin.com" target="_blank"><img src="./Assets/in-icon.svg"
-                                alt="linkedin icon"></a>
-                        <a href="https://www.youtube.com" target="_blank"><img src="./Assets/yt-icon.svg"
-                                alt="youtube icon"></a>
-                    </div>
-                    </div>
-
-                <div class="column">
-                    <p>What we do</p>
-                    <a href="#">Social Media Management</a>
-                    <a href="#">Brand Design</a>
-                    <a href="#">Influencer Marketing</a>
-                </div>
-                <div class="column">
-                    <p>Company</p>
-                    <a href="#">About us</a>
-                    <a href="#">Our Team</a>
-                    <a href="#">Blog</a>
-                </div>
-                <div class="column">
-                    <p>Contact</p>
-                    <a href="#"><img src="./Assets/email-icon.svg" alt="email icon">hello@deepstudio.com</a>
-                    <a href="#"><img src="./Assets/phone-icon.svg" alt="phone icon">+90 (000) 000-0000</a>
-                    <a href="#"><img src="./Assets/location-icon.svg" alt="location icon">Based in World</a>
-                </div>
-            </div>
-            <hr>
-            <div class="footer--bottom">
-                <span>© 2025 deepstudio. All rights reserved.</span>
+        <div class="footer--top">
+            <div class="footer--logo">
+                <p>deepstudio</p>
                 <div>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Cookie Policy</a>
+                    <a href="https://www.instagram.com/deepstudio.ai/" target="_blank"><img
+                            src="./Assets/instagram-icon.svg" alt="instagram icon"></a>
+                    <a href="https://wwww.facebook.com" target="_blank"><img src="./Assets/fb-icon.svg"
+                            alt="facebook icon"></a>
+                    <a href="https://wwww.x.com" target="_blank"><img src="./Assets/x-icon.svg" alt="x icon"></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img src="./Assets/in-icon.svg"
+                            alt="linkedin icon"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="./Assets/yt-icon.svg"
+                            alt="youtube icon"></a>
                 </div>
             </div>
-        </footer>
+    
+            <div class="column hidden--sm hidden--md">
+                <p>What we do</p>
+                <a href="#">Social Media Management</a>
+                <a href="#">Brand Design</a>
+                <a href="#">Influencer Marketing</a>
+            </div>
+            <div class="column hidden--sm hidden--md">
+                <p>Company</p>
+                <a href="#">About us</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="column hidden--sm hidden--md">
+                <p>Contact</p>
+                <a href="#"><img src="./Assets/email-icon.svg" alt="email icon">hello@deepstudio.com</a>
+                <a href="#"><img src="./Assets/phone-icon.svg" alt="phone icon">+90 (000) 000-0000</a>
+                <a href="#"><img src="./Assets/location-icon.svg" alt="location icon">Based in World</a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="footer--bottom ">
+            <span>© 2025 deepstudio. All rights reserved.</span>
+            <div class="hidden--sm hidden--md">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
