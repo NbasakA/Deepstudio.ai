@@ -396,6 +396,37 @@ footer>hr {
     color: var(--color--navy);
 }
 
+.section--about--right--text {
+    font-size: 20px;
+    text-align: center;
+    max-width: var(--site--max-width-md);
+    margin: auto 40px; /* why body's margin is not working? */;
+}
+
+.section--whatwedo--contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.section--whatwedo--text>h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section--whatwedo--text>p{
+    font-size: 20px;
+    text-align: center;
+    margin: auto 40px;
+}
+
+.section--whatwedo--text>ul{
+    list-style: none;
+    line-height: 30px;
+    margin-left: 20px;
+}
 
 
 
