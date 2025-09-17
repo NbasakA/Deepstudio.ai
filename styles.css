@@ -210,13 +210,12 @@ nav {
     margin:auto 40px; /* why body's margin is not working? */
 }
 
-
+/* WHATWEDO SECTION*/
 
 .section--whatwedo {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 0;
 }
 
 .section--whatwedo>h2 {
@@ -267,14 +266,16 @@ nav {
 
 /*check this*/
 
+/*PROJECTS SECTION?*/
+
 .section--projects {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    gap:30px;
+    gap: 20px;
     width: 50%;
-    margin:55px 0 75px;
+    margin: 55px auto 75px;
 }
 
 /*CONTACT SECTION*/
