@@ -537,7 +537,7 @@ footer>hr {
 
         nav{
             margin: 40px 85px;
-            width: 100vw;
+            width: 100vw; /* I couldn't figure out why navbar is acting like it has still hamburger menu and adds one more gap for it. So I added width to get the look I need. And that caused of x-scrolling.*/
         }
 
         .navbar--logo {
@@ -764,22 +764,17 @@ footer>hr {
 
         /*PROJECTS SECTION*/
 
-        .section--projects {
-    display: flex;
-    overflow:  auto;
-    flex-wrap: nowrap;
-    gap: 40px;
-    margin-left: 40px;
-}
-.section--projects>blockquote {
-    display: inline-block;
-    flex-shrink: 0;
-}
+ .section--projects {
+     display: flex;
+     overflow: auto;
+     flex-wrap: nowrap;
+     margin-left: 40px;
+ }
 
-.section--projects>h1 {
-    font-size: 25px;
-    color: var(--color--navy);
-}
+ .section--projects>blockquote {
+     display: inline-block;
+     flex-shrink: 0;
+ }
 
         /*CONTACT SECTION*/
 
