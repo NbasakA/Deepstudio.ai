@@ -207,7 +207,6 @@ nav {
     text-align: center;
     max-width: var(--site--max-width-sm);
     margin: auto 40px;
-    /* why body's margin is not working? */
 }
 
 /* WHATWEDO SECTION*/
@@ -266,18 +265,16 @@ nav {
 }
 
 
-/*check this*/
-
 /*PROJECTS SECTION*/
 
 .section--projects {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center ;
     align-items: center;
-    gap: 20px;
-    width: 50%;
-    margin: 55px auto 75px;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .section--projects>h1 {
@@ -351,13 +348,17 @@ form>p {
     display: none;
 }
 
+/*FOOTER*/
+
 footer {
     display: flex;
     flex-direction: column;
     color: var(--color--white);
     background-color: var(--color--navy);
-    margin: 0 20px 30px 20px;
+    margin: -30px -20px;
 }
+
+
 
 .footer--logo {
     margin: auto 40px;
@@ -518,19 +519,26 @@ footer>hr {
             }
  }
     
-    /* Fix: Close the first media query before starting the next one */
+    
     @media all and (min-width:1024.98px) {
 
         .hidden--lg {
             display: none;
         }
 
+        .hidden--sm,
+    .hidden--md {
+        display: flex;
+    }
+
         body {
             margin: 0;
         }
 
-
-
+        nav{
+            margin: 40px 85px;
+            width: 100vw;
+        }
 
         .navbar--logo {
             display: flex;
@@ -579,6 +587,7 @@ footer>hr {
             cursor: pointer;
         }
 
+        /*HERO SECTION*/
         .hero--context {
             display: flex;
             flex-direction: row-reverse;
@@ -648,6 +657,7 @@ footer>hr {
             height: 570px;
         }
 
+/*ABOUT SECTION*/
 
         .section--about {
             display: flex;
@@ -697,6 +707,8 @@ footer>hr {
             max-width: 504px;
         }
 
+        /*WHAT WE DO SECTION*/
+
 
         .section--whatwedo {
             display: flex;
@@ -733,6 +745,7 @@ footer>hr {
             gap: 117px;
         }
 
+
         .section--whatwedo--text>h2 {
             font-size: 30px;
         }
@@ -747,17 +760,28 @@ footer>hr {
             line-height: 30px;
         }
 
-        /*check this*/
+
+
+        /*PROJECTS SECTION*/
 
         .section--projects {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 30px;
-            width: 50%;
-            margin: 55px 0 75px;
-        }
+    display: flex;
+    overflow:  auto;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin-left: 40px;
+}
+.section--projects>blockquote {
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.section--projects>h1 {
+    font-size: 25px;
+    color: var(--color--navy);
+}
+
+        /*CONTACT SECTION*/
 
         form {
             display: flex;
@@ -872,6 +896,7 @@ footer>hr {
             flex-direction: row;
             justify-content: space-between;
             font-size: 10px;
+    ;
         }
 
         .footer--bottom>div>a {
