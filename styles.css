@@ -492,7 +492,8 @@ footer {
 }
 
 footer>hr {
-    width: 780px;
+    min-width: 740px;
+    margin-right: 40px;
 }
 
 .footer--bottom>div {
