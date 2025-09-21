@@ -443,7 +443,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-    margin: 0;
+    margin-right: 40px;
+
 
 }
 
@@ -473,6 +474,7 @@ footer {
     text-decoration: none;
     color: var(--color--white);
     flex-direction: column;
+   
 }
 
 
@@ -496,6 +498,7 @@ footer>hr {
 .footer--bottom>div {
     display: flex;
     gap: 12px;
+    margin-right: 40px;
 }
 
 
