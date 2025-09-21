@@ -382,6 +382,10 @@ footer>hr {
 }
 
 @media all and (min-width:768.98px) and (max-width:1024px) {
+    
+    /* On different pages, footer acts different. For ex; when you go what we do section footer look wider with the same values. Couldn't figure it out why.
+    And when you go contact section, acts different again.*/
+    
     .hidden--md {
         display: none;
     }
@@ -448,7 +452,7 @@ footer>hr {
             flex-direction: column;
             color: var(--color--white);
             background-color: var(--color--navy);
-            margin: -40px -55px -100px -55px;
+            margin: -40px -55px -60px -55px;
         }
 
         .footer--top {
