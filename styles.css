@@ -516,11 +516,27 @@ footer>hr {
 }
 
 @media all and (min-width:1024.98px) {
-    .hidden--lg {
-        display: none;
-    }
+    
+.hidden--lg {
+            display: none;
+ }
 
-    .navbar--links {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.text--logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color--navy);
+}
+
+.navbar--links {
     display: flex;
     gap: 40px;
 }
@@ -539,7 +555,7 @@ footer>hr {
 
 
 
-.hero-context {
+.hero--context {
     display: flex;
     flex-direction: row;
     justify-content: center;
