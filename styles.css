@@ -827,6 +827,7 @@ footer>hr {
             padding: 20px 40px;
             color: var(--color--white);
             background-color: var(--color--navy);
+            margin: auto;
         }
 
         .footer--top {
@@ -879,7 +880,7 @@ footer>hr {
 
         }
 
-        hr {
+        footer>hr {
             width: 1384px;
         }
 
