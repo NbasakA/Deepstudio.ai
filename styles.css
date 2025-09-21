@@ -205,7 +205,6 @@ nav {
 .section--about--right--text {
     font-size: 20px;
     text-align: center;
-    max-width: var(--site--max-width-sm);
     margin: auto 40px;
 }
 
@@ -215,8 +214,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: 50px auto;
 
 }
 
@@ -450,7 +448,7 @@ footer>hr {
             flex-direction: column;
             color: var(--color--white);
             background-color: var(--color--navy);
-            margin: -40px -60px -100px -60px;
+            margin: -40px -55px -100px -55px;
         }
 
         .footer--top {
@@ -766,6 +764,7 @@ footer>hr {
 
  .section--projects {
      display: flex;
+     flex-direction: row;
      overflow: auto;
      flex-wrap: nowrap;
      margin-left: 40px;
