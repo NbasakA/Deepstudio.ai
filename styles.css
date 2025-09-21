@@ -403,8 +403,6 @@ footer>hr {
         text-decoration: none;
         color: var(--color--navy);
     }
-
-    .section--about--right--text {
         .section--about--right--text {
             font-size: 20px;
             text-align: center;
@@ -889,4 +887,4 @@ footer>hr {
             display: flex;
             gap: 12px;
         }
-    }
+ }
